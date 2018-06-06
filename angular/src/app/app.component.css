@@ -1,0 +1,21 @@
+hr{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-top: 4px solid grey;
+}
+
+.navbar{
+    background:transparent;
+    background-color:transparent;
+    border-color:transparent;
+    margin-bottom:0px;
+    font-size:20px;
+}
+
+.navbar.solid{
+    transition: all ease 1s;
+    background: grey;
+}
