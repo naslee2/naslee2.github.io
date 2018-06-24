@@ -1,4 +1,109 @@
 .jumbotron{
-    height: 400px;
+    height: 300px;
     background-color: transparent;
+}
+
+.navbar{
+    background:transparent;
+    background-color: rgba(255, 255, 255, 0);
+    border-color:transparent;
+    margin-bottom:0px;
+    font-size:20px;
+    transition-duration: 0.3s;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: silver;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    left: 0;
+    opacity: 1;
+}
+
+.navbar.solid{
+    transition-duration: 0.3s;
+    background: white;
+}
+
+.navbar-brand{
+    color: silver;
+    font-size: larger;
+    transition-duration: 0.3s;
+}
+
+.nav-link{
+    font-size: larger;
+    transition-duration: 0.3s;
+    color:silver;
+}
+
+.navbar-brand.black{
+    color: cadetblue;
+    font-size: large;
+    transition: all ease 0.3s;
+}
+
+.nav-link.black{
+    font-size: large;
+    transition-duration: 0.3s;
+    color: black;
+}
+
+body, html{
+    background-color: black;
+    margin: 0px;
+}
+
+a:hover{
+    color: cadetblue!important;
+}
+
+.rounded-circle{
+    max-width: 275px;
+}
+
+.name{
+    font-size: 80px;
+    color: white;
+    height: 120px;
+}
+ 
+.text-center{
+    padding-top: 100px;
+}
+
+hr{
+    width: 200px;
+    height: 2px;
+    background-color: cadetblue;
+}
+
+.header1{
+    background-image: url("/assets/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.headerintro{
+    color: white;
+}
+
+.intro{
+    height: 600px;
+    background-color: black;
+}
+
+.portfolioProjects{
+    height: 600px;
+    background-color: white;
+}
+
+.contacts{
+    height: 600px;
+    background-color: white;
 }
