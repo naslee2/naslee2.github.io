@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -14,7 +15,7 @@ export class HomeComponent implements OnInit {
   navCheck(){
     $(document).ready(function() {
       $(window).on("load resize scroll", function(e){
-        if($(document).width() < 700 || $(document).scrollTop() > 500){ 
+        if($(document).width() < 800 || $(document).scrollTop() > 450){ 
             $('.navbar').addClass('solid');
             $('.nav-link').addClass('black');
             $('.navbar-brand').addClass('black');
@@ -35,13 +36,16 @@ export class HomeComponent implements OnInit {
       if( target.length ) {
           event.preventDefault();
           $('html, body').stop().animate({
-              scrollTop: target.offset().top
+              scrollTop: target.offset().top-59
           }, 300);
       }
     });
   }
 
+  
+
   ngOnInit() {
     this.navCheck();
+    this.navTarget();
   }
 }
