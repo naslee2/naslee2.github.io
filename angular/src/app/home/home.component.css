@@ -106,8 +106,18 @@ span{
     color: white;
 }
 
+#outer_name{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#inner_name{
+    margin: auto;
+}
+
 .intro{
-    height: 700px;
+    height: 950px;
     background-color: black;
 }
 
@@ -137,6 +147,10 @@ span{
 
 .p_contact2{
     font-size: 22px;
+}
+
+.contact_link{
+    color: black;
 }
 
 
