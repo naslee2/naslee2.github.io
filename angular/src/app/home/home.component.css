@@ -93,6 +93,11 @@ span{
     opacity: 1;
 }
 
+button{
+    border-radius: 40px;
+    font-weight: bold;
+}
+
 /*Div Sections*/
 .header1{
     background-image: url("/assets/header.jpg");
@@ -117,18 +122,22 @@ span{
 }
 
 .intro{
-    height: 950px;
+    height: 100%;
     background-color: black;
+}
+.rounded-circle{
+    width: 230px;
+    height: 230px;
 }
 
 .p_intro1{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .p_intro2{
     color: silver;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .portfolioProjects{
