@@ -156,8 +156,23 @@ button:hover{
 }
 
 .portfolioProjects{
-    height: 700px;
+    height: auto;
     background-color: silver;
+}
+
+.portfolio_square{
+    height:350px;
+    background-color: white;
+}
+
+.portfolio_square2{
+    height:350px;
+    background-color: blue;
+}
+
+.portfolio_square3{
+    height:350px;
+    background-color: grey;
 }
 
 .contacts{
