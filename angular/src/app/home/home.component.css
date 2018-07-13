@@ -60,6 +60,14 @@
     height: 100%;
 }
 
+.linkedin_icon{
+    padding:10px;
+}
+
+.github_icon{
+    padding:10px;
+    width: 54.84px;
+}
 /*tags*/
 
 hr{
@@ -80,6 +88,7 @@ body, html{
 
 a:hover{
     color: cadetblue!important;
+    text-decoration: none;
 }
 
 span{
@@ -94,8 +103,14 @@ span{
 }
 
 button{
-    border-radius: 40px;
     font-weight: bold;
+    font-size: larger;
+    border-radius: 30px;
+    border: transparent;
+    width: auto;
+}
+button:hover{
+    cursor: pointer!important;
 }
 
 /*Div Sections*/
@@ -146,7 +161,7 @@ button{
 }
 
 .contacts{
-    height: 500px;
+    height: 450px;
     background-color: white;
 }
 
@@ -161,5 +176,25 @@ button{
 .contact_link{
     color: black;
 }
+
+.fa-linkedin-square{
+    color: darkgray;
+}
+
+.fa-linkedin-square:hover{
+    color: white;
+    transition: 0.3s ease-in-out; 
+}
+
+.fa-github{
+    color: darkgray;
+}
+
+
+.fa-github:hover{
+    color: white;  
+    transition: 0.3s ease-in-out; 
+}
+
 
 
