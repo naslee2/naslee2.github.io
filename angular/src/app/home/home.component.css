@@ -156,21 +156,25 @@ button:hover{
 }
 
 .portfolioProjects{
+    width: auto;
     height: auto;
     background-color: silver;
 }
 
 .portfolio_square{
+    width: auto;
     height:350px;
     background-color: white;
 }
 
 .portfolio_square2{
+    width: auto;
     height:350px;
     background-color: blue;
 }
 
 .portfolio_square3{
+    width: auto;
     height:350px;
     background-color: grey;
 }
